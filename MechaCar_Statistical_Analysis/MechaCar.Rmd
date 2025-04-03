@@ -1,0 +1,109 @@
+
+---
+title: "MechaCar Statistical Analysis"
+author: "Abraham Abate"
+output: html_document
+---
+
+# Project Overview: MechaCar Statistical Analysis
+
+## Purpose
+The objective of this data analysis is to review the production data of AutosRUs’ newest prototype, the MechaCar, which is experiencing production issues that are hindering the manufacturing team's progress. This review will be accomplished through the following analyses:
+
+1. Identify which variables in the dataset predict the miles per gallon (mpg) of MechaCar prototypes.
+2. Analyze the data on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots.
+3. Compare and contrast the sample data with the population mean.
+4. Compare the vehicle performance of MechaCar vehicles against vehicles from other manufacturers.
+
+## Methodology
+
+### Linear Regression to Predict MPG
+**Objective:** Identify which variables in the dataset predict the mpg of MechaCar prototypes.
+
+**Analysis:** Perform a linear regression analysis to determine the relationship between various factors (e.g., vehicle length, ground clearance) and mpg.
+
+```{r cleaning, echo=TRUE, include=TRUE, message = False}
+
+library(tidyverse)
+
+# Part 1: Linear Regression to Predict MPG
+
+# IMPORT file from CSV 
+mechaCar_table <- read.csv(file="datasets/MechaCar_mpg.csv", check.names=FALSE, stringsAsFactors=FALSE)
+head (mechaCar_table)
+
+# linear regression using the lm() function.
+lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + 
+AWD,data=mechaCar_table) #generate multiple linear regression model
+
+summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + 
+ground_clearance + AWD,data=mechaCar_table)) #generate summary statistics
+
+######################################################################################
+
+# Part 2: Create Visualizations for the Trip Analysis
+
+# IMPORT file from CSV 
+suspension_table <- read.csv(file='datasets/Suspension_Coil.csv',check.names=F,stringsAsFactors = F)
+head (suspension_table)
+
+# creates a total_summary dataframe
+total_summary <- summarize(suspension_table, Mean=mean(PSI), Median=median(PSI),Variance=var(PSI),SD=sd(PSI), .groups = 'keep')  #create summary table
+head (total_summary)
+
+# creates a lot_summary dataframe
+lot_summary <- suspension_table %>% group_by(Manufacturing_Lot) %>% summarize(Mean = mean(PSI),Median = median(PSI), Variance = var(PSI), SD = sd(PSI) , .groups = 'keep') 
+
+#######################################################################################
+
+# Part 3: T-Tests on Suspension Coils
+
+# compare sample versus population means (1,500 pounds psi): One-sample t-test
+t.test(suspension_table$PSI,mu=mean(suspension_table$PSI))   
+```
+
+
+**Results:**
+- The r-squared value is 0.7149, indicating that approximately 71.5% of the variability in mpg can be explained by the model.
+- The p-value is 5.35 x 10^-11, which is significantly smaller than the significance level of 0.05, indicating that the model is statistically significant.
+- Ground clearance and vehicle length are significant predictors of mpg, meaning they have a substantial impact on the fuel efficiency of MechaCar prototypes.
+
+### Summary Statistics on Suspension Coils
+**Objective:** Analyze the PSI data of suspension coils from multiple production lots to determine consistency in the manufacturing process.
+
+**Analysis:**
+- Calculate summary statistics (mean, median, variance, standard deviation) for the suspension coil PSI across all manufacturing lots.
+- Compare the variance of the suspension coils to the design specification limit of 100 PSI.
+
+**Results:**
+- The total variance of the suspension coils is 62.3 PSI, which is within the design specification limit.
+- However, the variance in lot 3 exceeds the design specification limit, indicating inconsistencies in the manufacturing process for that lot.
+
+### T-Tests on Suspension Coils
+**Objective:** Determine if the PSI of suspension coils from all manufacturing lots and each lot individually are statistically different from the population mean.
+
+**Analysis:** Perform t-tests to compare the sample mean to the population mean.
+
+**Results:**
+- With a significance level of 0.05, the p-value is above the significance level, indicating that there is no statistical difference between the sample mean and the population mean. Therefore, the two means are statistically similar.
+
+### Study Design: MechaCar vs. Competition
+**Objective:** Quantify how the MechaCar performs against the competition.
+
+**Sampling:** Collect a random sample of data (n > 100) from MechaCars and competitors, including metrics such as cost, city/highway fuel efficiency, horsepower, and safety rating.
+
+**Metrics:** Focus on consumer-relevant metrics: cost, fuel efficiency, horsepower, and safety rating.
+
+**Hypotheses:**
+- Null Hypothesis (Ho): MechaCar pricing is not accurate and not based on performance metrics compared to competitors.
+- Alternative Hypothesis (Ha): MechaCar pricing is accurate and based on performance metrics compared to competitors.
+
+**Statistical Test:** Use a multiple linear regression model to test the hypothesis. Multiple linear regression is suitable because it accounts for the variance observed in the dependent variable using multiple independent variables.
+
+## Resources
+**Software:**
+- RStudio 2022.12.0 Build 353: The primary software used for statistical analysis and data visualization.
+
+## Conclusion
+This project aims to address the production issues of the MechaCar prototype by identifying key predictors of mpg, analyzing suspension coil consistency, and comparing MechaCar's performance against competitors. The findings will help improve the manufacturing process and ensure that MechaCar meets its design specifications and performance standards.
+
