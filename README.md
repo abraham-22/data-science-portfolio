@@ -50,9 +50,4 @@ Welcome to my data science portfolio! This collection showcases a variety of pro
 
 * **Overview:** This project likely involves analyzing data to recommend or categorize vacation spots based on various criteria. This could involve analyzing data related to location features (e.g., climate, attractions, cost of living), user reviews, or travel patterns. The project might utilize techniques such as clustering, classification (e.g., predicting user preference), or recommender systems to provide insightful vacation spot recommendations.
 
----
-
-This portfolio provides a snapshot of my data science skills and the types of problems I enjoy tackling. For more details on each project, including code and results, please feel free to [Link to your GitHub or other relevant platform]. I am always eager to learn and apply my skills to new and challenging data-driven initiatives.
-
----
 
