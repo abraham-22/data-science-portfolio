@@ -9,7 +9,7 @@ Welcome to my data science portfolio! This collection showcases a variety of pro
 1.[**Alzheimer's Disease Analysis**](https://github.com/abraham-22/data-science-portfolio/tree/main/Alzheimer's%20disease)
 
 * **Overview:** This project investigates a dataset related to Alzheimer's disease. The goal is to explore potential patterns, identify key factors that might be associated with the disease, and potentially build predictive models for early detection or progression. The analysis involves data cleaning, exploratory data analysis (EDA), feature engineering, and the application of relevant statistical or machine learning techniques. Insights gained from this project could contribute to a better understanding of Alzheimer's disease.
- <img src="![image](https://github.com/user-attachments/assets/cec97e23-e7ec-4406-8e2a-af94ffd384eb)" width="400"/>
+ <img src="![image](https://github.com/user-attachments/assets/cec97e23-e7ec-4406-8e2a-af94ffd384eb)" width="1000"/>
 
 
 **2. Amazon Vine Analysis**
