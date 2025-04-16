@@ -9,16 +9,20 @@ Welcome to my data science portfolio! This collection showcases a variety of pro
 1.[**Alzheimer's Disease Analysis**](https://github.com/abraham-22/data-science-portfolio/tree/main/Alzheimer's%20disease)
 
 * **Overview:** This project investigates a dataset related to Alzheimer's disease. The goal is to explore potential patterns, identify key factors that might be associated with the disease, and potentially build predictive models for early detection or progression. The analysis involves data cleaning, exploratory data analysis (EDA), feature engineering, and the application of relevant statistical or machine learning techniques. Insights gained from this project could contribute to a better understanding of Alzheimer's disease.
- <img src="![image](https://github.com/user-attachments/assets/cec97e23-e7ec-4406-8e2a-af94ffd384eb)" width="1000"/>
+    <img src="https://github.com/user-attachments/assets/87af2869-5f47-45d2-8259-a4adc20d982d" width="400"/>
 
-
-**2. Amazon Vine Analysis**
+2. [**Amazon Vine Analysis**](https://github.com/abraham-22/data-science-portfolio/tree/main/Amazon%20Vine%20Analysis)
 
 * **Overview:** This project analyzes Amazon Vine program data. The Amazon Vine program invites trusted reviewers to post opinions about new and pre-release items. This analysis aims to understand the characteristics of Vine reviews compared to non-Vine reviews. Key objectives include determining if Vine reviews are more helpful, if they tend to have higher ratings, and identifying any potential biases. The project involves data manipulation, statistical testing, and potentially sentiment analysis.
 
-**3. Childcare Data Analysis**
+  <img src="https://github.com/user-attachments/assets/e0b15124-ace1-4685-8f21-cf49bb0882a0" width="300"/>
 
-* **Overview:** This project involves the analysis of childcare-related data. The specific focus could vary, but it might include exploring factors affecting the availability and affordability of childcare, analyzing the impact of childcare on child development, or investigating trends in childcare utilization. The analysis would involve data cleaning, visualization, statistical analysis, and potentially the development of predictive models to forecast childcare needs or outcomes.
+3. [**Childcare Data Analysis**](https://github.com/abraham-22/data-science-portfolio/tree/main/Childcare%20Data%20Analysis)
+
+* **Overview:** This project involves the analysis of childcare-related data. The specific focus could vary, but it might include exploring factors affecting the availability and affordability of childcare, analyzing the impact of childcare on child development, or investigating trends in childcare utilization. The analysis would involve data cleaning, visualization, statistical analysis childcare dataset. By leveraging multiple visualization techniques,Power BI dashboards, and infographics, the project aims to provide an accessible and data-driven perspective on childcare expenses.
+
+  <img src="https://github.com/user-attachments/assets/3f27d128-4ca3-4261-883b-33b72bcb632f" width="400"/>
+
 
 **4. Clustering Analysis of Vehicles**
 
