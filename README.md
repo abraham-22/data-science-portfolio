@@ -6,7 +6,7 @@ Welcome to my data science portfolio! This collection showcases a variety of pro
 
 ### Projects
 
-**1. Alzheimer's Disease Analysis**
+[**1. Alzheimer's Disease Analysis**](https://github.com/abraham-22/data-science-portfolio/tree/main/Alzheimer's%20disease)
 
 * **Overview:** This project investigates a dataset related to Alzheimer's disease. The goal is to explore potential patterns, identify key factors that might be associated with the disease, and potentially build predictive models for early detection or progression. The analysis involves data cleaning, exploratory data analysis (EDA), feature engineering, and the application of relevant statistical or machine learning techniques. Insights gained from this project could contribute to a better understanding of Alzheimer's disease.
 
@@ -34,7 +34,7 @@ Welcome to my data science portfolio! This collection showcases a variety of pro
 
 * **Overview:** This project involves the analysis of cryptocurrency market data. The objective is to explore price trends, volatility, correlations between different cryptocurrencies, and potentially identify trading signals or patterns. The project utilizes time series analysis techniques, data visualization, and potentially statistical modeling to gain insights into the dynamic cryptocurrency market.
 
-**8. Heat Disease Analysis**
+**8. Heart Disease Analysis**
 
 * **Overview:** This project investigates a dataset related to heart disease. The goal is to identify key risk factors associated with heart disease and potentially build predictive models to estimate the likelihood of an individual developing the condition. The analysis involves data cleaning, exploratory data analysis, feature selection, and the application of classification algorithms. The insights gained can contribute to preventative healthcare efforts.
 
