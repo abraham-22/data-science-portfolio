@@ -1,6 +1,86 @@
 # Site settings
+# title: "Data Science Portfolio"
+# # #description: text below image
+# # show_downloads: true
+# theme: jekyll-theme-minimal
+---
+# Site settings
 title: "Data Science Portfolio"
-# logo: /assets/img/headshot_circle.png
-# #description: text below image
-# show_downloads: true
-theme: jekyll-theme-minimal
+description: "Showcasing my data science projects and skills."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://abraham-22.github.io" # the base hostname & protocol for your site
+author: "Abraham Abate"
+email: "your.email@example.com"
+show_downloads: true
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-slate
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-readme-index
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# Navigation links
+nav_links:
+  - title: "Home"
+    url: "/"
+  - title: "Projects"
+    url: "/projects"
+  - title: "Blog"
+    url: "/blog"
+  - title: "About"
+    url: "/about"
+
+# Social links
+social_links:
+  github: neBro
+  linkedin: your-linkedin-username
+  email: mailto:your.email@example.com
+
+# Exclude these files from the build process
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Markdown settings
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Pagination settings
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# SEO settings
+jekyll_seo_tag:
+  title: "Data Science Portfolio"
+  description: "Showcasing my data science projects and skills."
+  author: "Abraham Abate"
+  email: "your.email@example.com"
+  url: "https://yourusername.github.io"
+  twitter:
+    username: your-twitter-username
+  github:
+    username: neBro
+  linkedin:
+    username: your-linkedin-username
