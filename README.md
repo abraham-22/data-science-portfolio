@@ -120,16 +120,18 @@ data-science-portfolio/
 
    <img src="https://github.com/user-attachments/assets/bc24f7cd-2593-45d6-9da9-9810d4dc422d" width="300" height="200"/>
    
-**9. MechaCar Statistical Analysis**
+9. [MechaCar Statistical Analysis**](https://github.com/abraham-22/data-science-portfolio/tree/main/MechaCar_Statistical_Analysis)
 
 * **Overview:** This project focuses on performing statistical analysis on data related to a fictional vehicle company, MechaCar. The specific objectives could include analyzing the performance of different suspension coils, investigating the relationship between vehicle weight and fuel efficiency, or evaluating the impact of various design parameters on vehicle performance. The project involves formulating hypotheses, conducting statistical tests (e.g., t-tests, ANOVA), and interpreting the results to provide data-driven recommendations.
+  
+  <img src="https://github.com/user-attachments/assets/c6e91fbf-aace-4605-9a35-d0325f941a67" width="400" height="200"/>
 
-**10. Small Projects**
+10. [**Small Projects**](https://github.com/abraham-22/data-science-portfolio/tree/main/Small%20projects)
 
-* **Overview:** This section represents a collection of smaller, focused data science explorations and exercises. These projects might involve practicing specific techniques, working with smaller datasets, or exploring different data visualization methods. While individual descriptions might be shorter, this section demonstrates a continuous learning and experimentation mindset. (You could potentially list a few specific examples here if you have them).
+* **Overview:** This section represents a collection of smaller, focused data science explorations and exercises. These projects might involve practicing specific techniques, working with smaller datasets, or exploring different data visualization methods. While individual descriptions might be shorter, this section demonstrates a continuous learning and experimentation mindset.
 
 **11. Vacation Spot**
 
-* **Overview:** This project likely involves analyzing data to recommend or categorize vacation spots based on various criteria. This could involve analyzing data related to location features (e.g., climate, attractions, cost of living), user reviews, or travel patterns. The project might utilize techniques such as clustering, classification (e.g., predicting user preference), or recommender systems to provide insightful vacation spot recommendations.
+* **Overview:** This project involves analyzing data to recommend or categorize vacation spots based on various criteria. This involve analyzing data related to location features (e.g., Weather, cost, activities, user ratings, crime statistics, and historical trends). 
 
 
