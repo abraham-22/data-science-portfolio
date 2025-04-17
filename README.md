@@ -3,6 +3,70 @@
 Welcome to my data science portfolio! This collection showcases a variety of projects demonstrating my skills in data analysis, machine learning, statistical modeling, and data engineering across different domains. Repository containing portfolio of data science projects completed by me for academic, self learning, and hobby purposes. Presented in the form of Python files, Jupyter notebooks, and R markdown files.
 
 ---
+### Repository Structure:
+
+```
+data-science-portfolio/
+│
+├── README.md
+├── Alzheimer's Disease Analysis/
+│   ├── README.md
+│   ├── alzheimers_analysis.ipynb
+│   └── data/
+│       └── alzheimers_data.csv
+├── Amazon Vine Analysis/
+│   ├── README.md
+│   ├── amazon_vine_analysis.ipynb
+│   └── data/
+│       └── vine_data.csv
+├── Childcare Data Analysis/
+│   ├── README.md
+│   ├── childcare_analysis.ipynb
+│   └── data/
+│       └── childcare_data.csv
+├── Clustering Analysis of Vehicles/
+│   ├── README.md
+│   ├── clustering_vehicles.ipynb
+│   └── data/
+│       └── vehicle_data.csv
+├── Credit Risk Analysis/
+│   ├── README.md
+│   ├── credit_risk_analysis.ipynb
+│   └── data/
+│       └── credit_data.csv
+├── Crowdfunding ETL/
+│   ├── README.md
+│   ├── crowdfunding_etl.ipynb
+│   └── data/
+│       └── crowdfunding_data.csv
+├── Crypto Data Analysis/
+│   ├── README.md
+│   ├── crypto_analysis.ipynb
+│   └── data/
+│       └── crypto_data.csv
+├── Heart Disease Analysis/
+│   ├── README.md
+│   ├── heart_disease_analysis.ipynb
+│   └── data/
+│       └── heart_disease_data.csv
+├── MechaCar Statistical Analysis/
+│   ├── README.md
+│   ├── mechacar_analysis.ipynb
+│   └── data/
+│       └── mechacar_data.csv
+├── Small Projects/
+│   ├── README.md
+│   ├── project1.ipynb
+│   ├── project2.ipynb
+│   └── data/
+│       └── small_projects_data.csv
+└── Vacation Spot Analysis/
+    ├── README.md
+    ├── vacation_spot_analysis.ipynb
+    └── data/
+        └── vacation_data.csv
+```
+---
 
 ### Projects
 
