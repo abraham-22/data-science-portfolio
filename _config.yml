@@ -1,51 +1,7 @@
 # Site settings
 title: "Data Science Portfolio"
-description: "Welcome to my data science portfolio! This collection showcases a variety of projects demonstrating my skills in data analysis, machine learning, statistical modeling, and data engineering across different domains."
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://abraham-22.github.io/data-science-portfolio" 
-author: "Your Name"
-
-# Build settings
-markdown: kramdown
-theme: minima
-
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# Navigation links
-nav_links:
-  - title: "Home"
-    url: "/"
-  - title: "Projects"
-    url: "/projects"
-  - title: "About"
-    url: "/about"
-
-# Social links
-social_links:
-  github: yourusername
-  linkedin: your-linkedin-username
-  twitter: your-twitter-username
-
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-
-# Markdown settings
-kramdown:
-  input: GFM
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
+# title: Shaw Talebi
+# logo: /assets/img/headshot_circle.png
+# #description: text below image
+# show_downloads: true
+theme: jekyll-theme-minimal
