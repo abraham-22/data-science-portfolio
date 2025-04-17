@@ -1,4 +1,4 @@
-## Data Science Portfolio
+# Data Science Portfolio
 
 Welcome to my data science portfolio! This collection showcases a variety of projects demonstrating my skills in data analysis, machine learning, statistical modeling, and data engineering across different domains. Repository containing portfolio of data science projects completed by me for academic, self learning, and hobby purposes. Presented in the form of Python files, Jupyter notebooks, and R markdown files.
 
@@ -95,7 +95,7 @@ Welcome to my data science portfolio! This collection showcases a variety of pro
    <img src="https://github.com/user-attachments/assets/47c8e362-5f63-4eb9-a64c-7a458e0dce8c" width="300" height="200"/>
 
 
-**5**. [**Credit Risk Analysis**](https://github.com/abraham-22/data-science-portfolio/tree/main/Credit%20Risk%20Analysis)
+5. [**Credit Risk Analysis**](https://github.com/abraham-22/data-science-portfolio/tree/main/Credit%20Risk%20Analysis)
 
 * **Overview:** This project focuses on building models to predict the credit risk of individuals or entities. Using historical credit data, the goal is to develop classification models that can distinguish between borrowers who are likely to repay their loans and those who are likely to default. The project involves data cleaning, feature engineering, handling imbalanced datasets, training and evaluating various classification algorithms (e.g.Random Forest, Gradient Boosting), and interpreting model performance metrics. 
  
