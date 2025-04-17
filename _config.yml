@@ -1,8 +1,8 @@
 # Site settings
 title: "Data Science Portfolio"
 # description: text below image
-show_downloads: true
+# show_downloads: true
 theme: jekyll-theme-slate
-image: "/pics/img/dsc2img.jpg"  
+image: "/pics/dsc2img.jpg"  
 
 
