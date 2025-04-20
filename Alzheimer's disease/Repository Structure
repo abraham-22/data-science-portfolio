@@ -1,0 +1,7 @@
+Alzheimer's Disease Analysis/
+│── README.md
+│── alzheimers_disease_analysis.ipynb
+│── alzheimer_prediction.ipynb
+│── Alzheimers Disease Prediction Writeup.pdf
+│── datasets/
+    └── alzheimers_disease_data.csv
