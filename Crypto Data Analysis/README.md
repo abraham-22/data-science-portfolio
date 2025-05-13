@@ -1,13 +1,13 @@
 
 # 📈 Cryptocurrency Market Analysis
 
-## 🧠 Project Overview
+## Project Overview
 
 This project applies unsupervised machine learning techniques to explore the cryptocurrency market. The primary goal is to identify which cryptocurrencies are currently being traded and to classify them based on their attributes, ultimately establishing a system for understanding this emerging class of digital assets.
 
----
 
-## 🎯 Purpose
+
+##  Purpose
 
 The analysis focuses on:
 
@@ -64,14 +64,12 @@ cryptocurrency-market-analysis/
 5. **Dimensionality Reduction with PCA**  
    Reduce the feature space for better visualization and interpretation of clusters.
 
----
 
-## 📌 Results
+
+## Results
 
 - Identified the number of actively traded cryptocurrencies
 - Offered insights into the types and categories of digital currencies available on the market
 
----
 
 
-*Thank you for exploring this project. Your feedback and suggestions are welcome!*
