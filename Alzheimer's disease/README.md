@@ -2,7 +2,7 @@
 
 This repository contains two complementary studies aimed at understanding and predicting Alzheimer’s Disease (AD) through statistical analysis and machine learning techniques. By leveraging clinical, demographic, and biomarker data, these projects provide insights into risk factors and predictive modeling for AD.
 
----
+
 
 ## 📁 Project Structure
 ```
@@ -15,7 +15,7 @@ Alzheimer's Disease Analysis/
     └── alzheimers_disease_data.csv
 ```
 
----
+
 
 ## Part 1: Cholesterol Levels and Alzheimer's Disease — A Data-Driven Approach
 
@@ -80,7 +80,7 @@ This section focuses on building models to detect and predict Alzheimer's Diseas
 - Feature importance analysis revealed key contributors to prediction
 - Neural networks and random forests yielded the best performance
 
----
+
 
 ## 🛠️ Tools & Technologies
 
