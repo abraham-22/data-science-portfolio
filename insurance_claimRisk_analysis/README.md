@@ -1,12 +1,12 @@
-# 🏥 Insurance Claim Risk Modeling: Detecting Anomalies in Healthcare Billing
+## Insurance Claim Risk Modeling: Detecting Anomalies in Healthcare Billing
 
-##  Project Overview
+###  Project Overview
 
 This project aims to build a **risk-scoring model** to identify **high-risk, anomalous, or potentially fraudulent healthcare insurance claims** using patient and billing data. Fraud and abuse in healthcare billing can lead to massive financial losses and misallocation of resources. This two-stage modeling pipeline combines unsupervised anomaly detection and supervised classification to surface suspicious claims effectively.
 
 
 
-## Objectives
+### Objectives
 
 -  **Detect anomalous insurance claims** using unsupervised learning techniques  
 - **Assign risk scores and labels** for supervised classification  
@@ -15,7 +15,7 @@ This project aims to build a **risk-scoring model** to identify **high-risk, ano
 
 
 
-## Tools & Technologies
+### Tools & Technologies
 
 - **Python 3.9+**
 - **Pandas, NumPy** – Data preprocessing and manipulation  
@@ -26,7 +26,7 @@ This project aims to build a **risk-scoring model** to identify **high-risk, ano
 
 
 
-## 🗂️ Project Structure
+### 🗂️ Project Structure
 
 ```
 insurance-claim-risk-modeling/
@@ -37,11 +37,10 @@ insurance-claim-risk-modeling/
 
 ```
 
----
 
-## 🔬 Methodology
+### 🔬 Methodology
 
-### Phase 1: Anomaly Detection (Unsupervised Learning)
+#### Phase 1: Anomaly Detection (Unsupervised Learning)
 
 - **Isolation Forest** – Detects anomalies based on how isolated a data point is in feature space  
 - **Local Outlier Factor (LOF)** – Evaluates local density deviations to flag anomalies  
@@ -51,7 +50,7 @@ insurance-claim-risk-modeling/
 > Claims with high anomaly scores across multiple models were labeled as potentially high-risk.
 
 
-### Phase 2: Risk Classification (Supervised Learning)
+#### Phase 2: Risk Classification (Supervised Learning)
 
 - Labeled data from Phase 1 used to train classifiers:
   - **Logistic Regression** – Interpretable baseline model
@@ -62,7 +61,7 @@ insurance-claim-risk-modeling/
   - **Confusion Matrix and ROC-AUC**
 
 
-##  Key Insights
+###  Key Insights
 
 - Combining multiple anomaly detection methods increases detection reliability  
 - Autoencoder and Isolation Forest produced the most consistent high-risk predictions  
@@ -71,7 +70,7 @@ insurance-claim-risk-modeling/
 
 
 
-## Use Case Relevance
+### Use Case Relevance
 
 - 🧾 **Insurance Providers**: Flag suspicious claims for manual review  
 - 🏥 **Healthcare Auditors**: Prioritize investigations and reduce fraud losses  
