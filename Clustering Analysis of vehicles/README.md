@@ -4,7 +4,7 @@
 
 This project applies unsupervised machine learning techniques to analyze and group vehicles based on their greenhouse gas (GHG) emission profiles. As emissions regulations and sustainability goals become more critical, understanding vehicle emission patterns is vital for decision-makers across sectors.
 
----
+
 
 ## Objectives
 
