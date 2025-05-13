@@ -1,6 +1,6 @@
 # 🚗 Cluster Analysis for GHG Emission Profiles of Vehicles
 
-## 📘 Project Overview
+## Project Overview
 
 This project applies unsupervised machine learning techniques to analyze and group vehicles based on their greenhouse gas (GHG) emission profiles. As emissions regulations and sustainability goals become more critical, understanding vehicle emission patterns is vital for decision-makers across sectors.
 
@@ -8,10 +8,10 @@ This project applies unsupervised machine learning techniques to analyze and gro
 
 ## Objectives
 
-- 📊 **Categorize vehicles** based on GHG emissions using clustering techniques  
-- ⚙️ **Compare clustering algorithms**, including K-Means, Hierarchical Clustering, DBSCAN, and Gaussian Mixture Models (GMM)  
-- 📈 **Evaluate clustering performance** using metrics like Silhouette Score and Davies-Bouldin Index (DBI)  
-- 💡 **Provide actionable insights** for policymakers, manufacturers, and consumers
+- **Categorize vehicles** based on GHG emissions using clustering techniques  
+-  **Compare clustering algorithms**, including K-Means, Hierarchical Clustering, DBSCAN, and Gaussian Mixture Models (GMM)  
+- **Evaluate clustering performance** using metrics like Silhouette Score and Davies-Bouldin Index (DBI)  
+-  **Provide actionable insights** for policymakers, manufacturers, and consumers
 
 
 
