@@ -23,7 +23,7 @@ The analysis focuses on:
 cryptocurrency-market-analysis/
 │
 ├── dataset/
-│ └── data/ # Raw and processed datasets
+│ └── data/ # Raw datasets
 │
 ├── Cryptocurrency_Market_Analysis.ipynb # Jupyter Notebook with analysis
 ├── README.md # Project documentation (this file)
