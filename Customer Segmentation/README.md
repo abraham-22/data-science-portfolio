@@ -8,9 +8,9 @@ This project focuses on comparing multiple clustering algorithms to effectively 
 
 ## Objectives
 
-- 🧠 **Compare clustering techniques** (K-Means, Hierarchical, DBSCAN, GMM) for customer segmentation  
-- 🔍 **Evaluate cluster quality** using metrics such as Silhouette Score and Davies-Bouldin Index (DBI)  
-- 💰 **Analyze the impact** of clustering on downstream business metrics like CLV and churn prediction  
+- **Compare clustering techniques** (K-Means, Hierarchical, DBSCAN, GMM) for customer segmentation  
+-  **Evaluate cluster quality** using metrics such as Silhouette Score and Davies-Bouldin Index (DBI)  
+-  **Analyze the impact** of clustering on downstream business metrics like CLV and churn prediction  
 
 
 
